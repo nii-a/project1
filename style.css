@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(182, 43, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(182, 43, 182);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pic img, .profile img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
